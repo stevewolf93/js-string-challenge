@@ -14,3 +14,4 @@ function ascii_to_hexa(string) {
 }
 console.log(ascii_to_hexa("12")); //3132
 console.log(ascii_to_hexa("100")); //313030
+console.log(ascii_to_hexa("Carlo <3"))
