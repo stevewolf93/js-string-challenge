@@ -6,7 +6,7 @@
  */
 
 function alphabetize(string) {
-  return string.split('').sort().join('').trim();
+  return string.split("").sort().join("").trim();
 }
 console.log(alphabetize("United States"));
 console.log(alphabetize("Rindfleisch etikettierungs überwachungs aufgaben übertragungs gesetz"));
