@@ -7,11 +7,9 @@ let library = [
     libraryID: 3245,
   },
 ];
-
 function compare_to_sort(a, b) {
   if (a.title < b.title) return -1;
   if (a.title > b.title) return 1;
   return 0;
 }
-
 console.log(library.sort(compare_to_sort));
