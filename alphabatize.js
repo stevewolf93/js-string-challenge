@@ -9,8 +9,7 @@ function alphabetize(string) {
   return string.split("").sort().join("").trim();
 }
 console.log(alphabetize("United States"));
-console.log(alphabetize("Rindfleisch etikettierungs überwachungs aufgaben übertragungs gesetz"));
+console.log(alphabetize("Rindfleisch-etikettierungs-überwachungs-aufgaben-übertragungs-gesetz"));
 console.log(alphabetize("Pneumonoultramicroscopicsilicovolcanoconiosis"));
-console.log(alphabetize("الجمال"));
-console.log(alphabetize("美麗的"));
-console.log(alphabetize("美しい"));
+console.log(alphabetize("Carlo è fantastico"));
+
